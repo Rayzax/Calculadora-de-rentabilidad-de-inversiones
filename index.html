@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de inversiones</h1>
+        <p>En esta calculadora podras comprobar si las inversiones en un proyecto son rentables mediante diferentes métodos.</p>
+    </header>
+    <section>
+        <form action="">
+            <label for="inputInversion0">Introduzca la inversión inicial</label>
+            <input type="number" id="inputInversion0">
+
+            <label for="inputFlujos">Introduzca el número de flujos de caja del proyecto:</label>
+            <input type="number" id="inputFlujos">
+
+            <button type="button" onclick="calculo()"></button>
+        </form>
+    </section>
+    <script src="./formulas.js"></script>
+</body>
+</html>
